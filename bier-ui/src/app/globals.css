@@ -12,15 +12,71 @@
 
 body{
   background-color: rgb(237, 237, 237) !important;
+  
 }
 
-/* 
-*{
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  box-sizing: border-box;
-  color: #0C111D;
-  
-  transition: all 0.3s ease-in-out;
-  font-style: normal;
-} */
+.home-css{
+  background-image: url('./components/img/Nayong\ Filipino\ -\ food1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 86vh;
+}
+
+.bg-glassmorph{
+  /* From https://css.glass */
+  /* background: rgba(255, 255, 255, 0.2); */
+  border-image: linear-gradient(
+    90deg,
+    #332f9c 30%, 
+    #d92125 30%, 
+    #d92125 40%, 
+    #ebb34b 40%,
+    #ebb34b 100%) 90;
+  border-width: 1rem 0 0 0;
+  border-style: solid;
+
+  background-image: linear-gradient(
+    180deg,
+    #fdf3f3 0%,
+    #fdf3f3 20%,
+    #ffffff00 50%,
+    #ffffff00 100%);
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); */
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
+.glassmorph{
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
+.intro-css{
+  min-height: 40vh;
+}
+
+.navmenu{
+  color: gray !important;
+}
+
+.navmenu.active{
+  color: #332f9c !important;
+}
+
+.card-img{
+  max-height: 10.6875rem;
+}
+
+.text-quote-css{
+  color: #2f2f2f;
+}
+
+.text-14px{
+  font-size: 0.875rem;
+}
