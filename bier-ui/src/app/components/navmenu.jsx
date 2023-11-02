@@ -29,6 +29,11 @@ export default function NavMenu() {
             <Link className="nav-link navmenu border-start py-3 border-end" href="/about">About</Link>
           </div>
         </div>
+        <div className='col-1 d-flex justify-content-between'>
+          <Link href="..." className="text-dark fs-5"><i className="bi bi-facebook"></i></Link>
+          <Link href="..." className="text-dark fs-5"><i className="bi bi-instagram"></i></Link>
+          <Link href="..." className="text-dark fs-5"><i className="bi bi-yelp"></i></Link>
+        </div>
       </div>
 
       <div class="modal fade" id="navContact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
