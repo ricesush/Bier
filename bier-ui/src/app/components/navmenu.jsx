@@ -23,9 +23,9 @@ export default function NavMenu() {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <Link className="nav-link navmenu border-start py-3" aria-current="page" href="/">Home</Link>
-            <Link className="nav-link navmenu border-start py-3" href="/about">About</Link>
+            <Link className="nav-link navmenu border-start py-3" href="/menu">Menu</Link>
             <Link className="nav-link navmenu border-start py-3" href="/contact">Contact</Link>
-            <Link className="nav-link navmenu border-start border-end py-3" href="/services">Services</Link>
+            <Link className="nav-link navmenu border-start py-3 border-end" href="/about">About</Link>
           </div>
         </div>
       </div>

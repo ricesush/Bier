@@ -69,8 +69,12 @@ body{
   color: #332f9c !important;
 }
 
-.card-img{
+.card-height{
   max-height: 10.6875rem;
+}
+
+.menu-card-height{
+  max-height: 15rem;
 }
 
 .text-quote-css{
@@ -83,4 +87,24 @@ body{
 
 .text-blue{
   color: #252271;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.label-border-css{
+  border-image: linear-gradient(
+    90deg,
+    #332f9c 50%, 
+    #d92125 50%, 
+    #d92125 60%, 
+    #ebb34b 60%,
+    #ebb34b 100%) 90;
+  border-width: .3rem 0 0 0;
+  border-style: solid;
+}
+
+.bg-yellow{
+  background-color: #ebb34b;
 }

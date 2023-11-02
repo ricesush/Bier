@@ -16,27 +16,27 @@ export default function Home() {
           <div className=" mx-auto row  g-2">
             <div className="col">
               <div className="card border border-1 rounded-0 text-bg-dark shadow">
-                <Image src={ImgLaing} className="d-block rounded-0 img-fluid card-img" alt="Laing" />
+                <Image src={ImgLaing} className="d-block rounded-0 img-fluid card-img card-height" alt="Laing" />
               </div>
             </div>
             <div className="col">
               <div className="card border border-1 rounded-0 text-bg-dark shadow">
-                <Image src={ImgKareKare} className="d-block rounded-0 img-fluid card-img" alt="Kare Kare" />
+                <Image src={ImgKareKare} className="d-block rounded-0 img-fluid card-img card-height" alt="Kare Kare" />
               </div>
             </div>
             <div className="col">
               <div className="card border border-1 rounded-0 text-bg-dark shadow">
-                <Image src={ImgFood1} className="d-block rounded-0 img-fluid card-img" alt="..." />
+                <Image src={ImgFood1} className="d-block rounded-0 img-fluid card-img card-height" alt="..." />
               </div>
             </div>
             <div className="col">
               <div className="card border border-1 rounded-0 text-bg-dark shadow">
-                <Image src={ImgLechongKawali} className="d-block rounded-0 img-fluid card-img" alt="..." />
+                <Image src={ImgLechongKawali} className="d-block rounded-0 img-fluid card-img card-height" alt="..." />
               </div>
             </div>
             <div className="col">
               <div className="card border border-1 rounded-0 text-bg-dark shadow">
-                <Image src={ImgAfritada} className="d-block rounded-0 img-fluid card-img" alt="..." />
+                <Image src={ImgAfritada} className="d-block rounded-0 img-fluid card-img card-height" alt="..." />
               </div>
             </div>
           </div>
@@ -53,14 +53,13 @@ export default function Home() {
               height="476" 
               style={{'border':'none', 'overflow':'hidden'}}
               scrolling="no" 
-              frameborder="0" 
-              allowfullscreen="true" 
-              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
-              allowFullScreen="true">
+              frameBorder="0" 
+              allowFullScreen={true}
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
             </iframe>
           </div>
         </section>
-        <section className='bg-white pt-5'>
+        <section className='bg-white bg-opacity-75 py-5'>
           <Menu />
         </section>
       </div>
