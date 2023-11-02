@@ -6,6 +6,7 @@ import ImgLechongKawali from './components/img/Nayong Filipino - lechongKawali.j
 import ImgAfritada from './components/img/Nayong Filipino - afritada.jpg'
 import LogoPng from './components/img/NayongFilipino-Logo.webp'
 import styles from './page.module.css'
+import Menu from './HomeComponents/menu'
 
 export default function Home() {
   return (
@@ -58,6 +59,9 @@ export default function Home() {
               allowFullScreen="true">
             </iframe>
           </div>
+        </section>
+        <section className='bg-white pt-5'>
+          <Menu />
         </section>
       </div>
     </main>
