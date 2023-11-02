@@ -6,13 +6,20 @@
   padding: 0 !important;
   margin: 0 !important;
   gap: 0 !important;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out !important;
   font-style: normal;
+}
+*{
+  transition: all 0.3s ease-in-out !important;
 }
 
 body{
   background-color: rgb(237, 237, 237) !important;
-  
+  transition:none !important;
+}
+
+.pointer-css{
+  cursor: pointer;
 }
 
 .home-css{
@@ -120,9 +127,9 @@ a{
     #d92125 50%, 
     #d92125 60%, 
     #ebb34b 60%,
-    #ebb34b 100%) 90;
-  border-width: .3rem;
-  border-style: solid;
+    #ebb34b 100%) 90 !important;
+  border-width: .3rem !important;
+  border-style: solid !important;
 }
 
 .container-border-top{

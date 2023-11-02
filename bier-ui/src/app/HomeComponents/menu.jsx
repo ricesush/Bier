@@ -35,7 +35,7 @@ export default function Menu() {
       <section>
         <div className="row row-cols-2 row-cols-lg-4 g-4">
           <div className="col" data-bs-toggle="modal" data-bs-target="#dish0">
-            <div className="card shadow">
+            <div className="card shadow pointer-css">
               <Image src={PopularDishes[0]} className="card-img-top menu-card-height" alt="..." />
               <div className="card-body p-0 d-flex justify-content-between label-border-css">
                 <h5 className="card-title m-0 p-3">Beef Mechado</h5>
@@ -49,7 +49,7 @@ export default function Menu() {
           details="Braised tender slices of beef in tangy tomato sauce topped with potato wedges and bell pepper." />
 
           <div className="col" data-bs-toggle="modal" data-bs-target="#dish1">
-            <div className="card shadow">
+            <div className="card shadow pointer-css">
               <Image src={PopularDishes[1]} className="card-img-top menu-card-height" alt="..." />
               <div className="card-body p-0 d-flex justify-content-between label-border-css">
                 <h5 className="card-title m-0 p-3">Pork BBQ (1 stick)</h5>
@@ -63,7 +63,7 @@ export default function Menu() {
           details='Grilled 8" skewered pork with sweet and tangy Filipino style basting.' />
 
           <div className="col">
-            <div className="card shadow" data-bs-toggle="modal" data-bs-target="#dish2">
+            <div className="card shadow pointer-css" data-bs-toggle="modal" data-bs-target="#dish2">
               <Image src={PopularDishes[2]} className="card-img-top menu-card-height" alt="..." />
               <div className="card-body p-0 d-flex justify-content-between label-border-css">
                 <h5 className="card-title m-0 p-3">Halo Halo</h5>
@@ -77,7 +77,7 @@ export default function Menu() {
           details='Signature Filipino dessert consist of sweet white beans, mongo beans, garbanzo beans, coconut jelly, coconut meat, coconut beans, ube in shaved ice, milk and ice cream choice of mango, langka or avocado. Ice cream availability subject to change without notice. 8" skewered pork with sweet and tangy Filipino style basting.' />
 
           <div className="col">
-            <div className="card shadow" data-bs-toggle="modal" data-bs-target="#dish3">
+            <div className="card shadow pointer-css" data-bs-toggle="modal" data-bs-target="#dish3">
               <Image src={PopularDishes[3]} className="card-img-top menu-card-height" alt="..." />
               <div className="card-body p-0 d-flex justify-content-between label-border-css">
                 <h5 className="card-title m-0 p-3">Kare Kare</h5>
@@ -91,7 +91,7 @@ export default function Menu() {
           details='Tender chopped oxtail and Asian vegetables in peanut sauce. Shrimp paste on the side included.' />
 
           <div className="col">
-            <div className="card shadow" data-bs-toggle="modal" data-bs-target="#dish4">
+            <div className="card shadow pointer-css" data-bs-toggle="modal" data-bs-target="#dish4">
               <Image src={PopularDishes[4]} className="card-img-top menu-card-height" alt="..." />
               <div className="card-body p-0 d-flex justify-content-between label-border-css">
                 <h5 className="card-title m-0 p-3">Lecheflan</h5>
@@ -105,7 +105,7 @@ export default function Menu() {
           details='8" round Filipino style creme brulee for the whole family and beyond' />
 
           <div className="col">
-            <div className="card shadow" data-bs-toggle="modal" data-bs-target="#dish5">
+            <div className="card shadow pointer-css" data-bs-toggle="modal" data-bs-target="#dish5">
               <Image src={PopularDishes[5]} className="card-img-top menu-card-height" alt="..." />
               <div className="card-body p-0 d-flex justify-content-between label-border-css">
                 <h5 className="card-title m-0 p-3">Lumpiang Shanghai</h5>
@@ -119,7 +119,7 @@ export default function Menu() {
           details='Pork filled fried egg roll with sweet and sour sauce on the side.' />
 
           <div className="col">
-            <div className="card shadow" data-bs-toggle="modal" data-bs-target="#dish6">
+            <div className="card shadow pointer-css" data-bs-toggle="modal" data-bs-target="#dish6">
               <Image src={PopularDishes[6]} className="card-img-top menu-card-height" alt="..." />
               <div className="card-body p-0 d-flex justify-content-between label-border-css">
                 <h5 className="card-title m-0 p-3">Pancit Bihon</h5>
@@ -133,7 +133,7 @@ export default function Menu() {
           details='Rice noodles, chicken, shrimp, and veggies wok fried in soy sauce and spices.' />
 
           <div className="col">
-            <div className="card shadow" data-bs-toggle="modal" data-bs-target="#dish7">
+            <div className="card shadow pointer-css" data-bs-toggle="modal" data-bs-target="#dish7">
               <Image src={PopularDishes[7]} className="card-img-top menu-card-height" alt="..." />
               <div className="card-body p-0 d-flex justify-content-between label-border-css">
                 <h5 className="card-title m-0 p-3">Pinakbet</h5>
