@@ -108,3 +108,35 @@ a{
 .bg-yellow{
   background-color: #ebb34b;
 }
+
+.text-main-blue{
+  color: #332f9c !important;
+}
+
+.container-border{
+  border-image: linear-gradient(
+    90deg,
+    #332f9c 50%, 
+    #d92125 50%, 
+    #d92125 60%, 
+    #ebb34b 60%,
+    #ebb34b 100%) 90;
+  border-width: .3rem;
+  border-style: solid;
+}
+
+.container-border-top{
+  border-image: linear-gradient(
+    90deg,
+    #332f9c 50%, 
+    #d92125 50%, 
+    #d92125 60%, 
+    #ebb34b 60%,
+    #ebb34b 100%) 90;
+  border-width: .3rem 0 0 0;
+  border-style: solid;
+}
+
+.border-yellow{
+  border-color: #ffc965 !important;
+}

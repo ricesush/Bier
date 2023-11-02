@@ -4,12 +4,12 @@ export default function Services() {
   return (
     <main className='home-css'>
       <section className='glassmorph py-5'>
-        <div className='container bg-white rounded p-5'>
+        <div className='container bg-white  container-border rounded p-5'>
           <h2 className=''>
-            Menu
+            <i class="bi bi-book"></i> Menu 
           </h2>
           <section>
-            <table class="table">
+            <table class="table table-hover border-yellow">
               <thead>
                 <tr>
                   <th scope="col" className='col-3'></th>
@@ -19,7 +19,7 @@ export default function Services() {
               </thead>
               <tbody>
                 <tr>
-                  <th colSpan="3" className='pt-5'>Breakfast Menu All Day</th>
+                  <th colSpan="3" className='pt-5 text-main-blue'>Breakfast Menu All Day</th>
                 </tr>
                 <tr>
                   <td scope="row">Bangsilog</td>
@@ -42,7 +42,7 @@ export default function Services() {
                   <td>$17.99</td>
                 </tr>
                 <tr>
-                  <th colSpan="3" className='pt-5'>Large Family Pork and Beef Menu</th>
+                  <th colSpan="3" className='pt-5 text-main-blue'>Large Family Pork and Beef Menu</th>
                 </tr>
                 <tr>
                   <td scope="row">Beef Mechado (32oz)</td>
@@ -66,7 +66,7 @@ export default function Services() {
                 </tr>
 
                 <tr>
-                  <th colSpan="3" className='pt-5'>Large Family Chicken and Seafood Menu</th>
+                  <th colSpan="3" className='pt-5 text-main-blue'>Large Family Chicken and Seafood Menu</th>
                 </tr>
                 <tr>
                   <td scope="row">Bangus Sisig</td>
@@ -85,7 +85,7 @@ export default function Services() {
                 </tr>
 
                 <tr>
-                  <th colSpan="3" className='pt-5'>Large Family Noodle & Vegetable Menu</th>
+                  <th colSpan="3" className='pt-5 text-main-blue'>Large Family Noodle & Vegetable Menu</th>
                 </tr>
                 <tr>
                   <td scope="row">Pancit Bihon</td>

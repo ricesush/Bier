@@ -7,6 +7,7 @@ import ImgAfritada from './components/img/Nayong Filipino - afritada.jpg'
 import LogoPng from './components/img/NayongFilipino-Logo.webp'
 import styles from './page.module.css'
 import Menu from './HomeComponents/menu'
+import Contact from './HomeComponents/contact'
 
 export default function Home() {
   return (

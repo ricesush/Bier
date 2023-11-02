@@ -33,7 +33,7 @@ export default function Menu() {
         <Link href="/menu" className="text-center align-center text-dark btn btn-outline-warning shadow">View Menu <i class="bi bi-arrow-right"></i></Link>
       </section>
       <section>
-        <div className="row row-cols-2 row-cols-md-4 g-4">
+        <div className="row row-cols-2 row-cols-lg-4 g-4">
           <div className="col" data-bs-toggle="modal" data-bs-target="#dish0">
             <div className="card shadow">
               <Image src={PopularDishes[0]} className="card-img-top menu-card-height" alt="..." />
